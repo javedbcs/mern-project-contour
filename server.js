@@ -54,9 +54,9 @@ app.use(["/addExercise", "/getAllExercises", "updateUser", "updateExerciseById",
 
 
 
-// app.get('/', (req, res)=>{
-//     res.send("Homepage");
-// })
+app.get('/', (req, res)=>{
+    res.send("Homepage");
+})
 
 
 app.post('/login', async (req, res)=>{
